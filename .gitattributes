@@ -1,0 +1,1 @@
+agency-dashboard/backend/uploads/videos/* filter=lfs diff=lfs merge=lfs -text
