@@ -1,0 +1,20 @@
+{
+  "name": "pm-ajay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev",
+    "start": "concurrently -n \"frontend,backend\" -c \"bgBlue,bgYellow\"  \"npm run backend\"  \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "concurrently": "^9.2.1",
+    "multer": "^2.0.2"
+  }
+}
